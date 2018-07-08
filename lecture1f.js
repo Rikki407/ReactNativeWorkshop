@@ -17,4 +17,12 @@ console.log(randomSet.has(10), randomSet.size);
 console.log(randomSet.delete(20), randomSet.size);
 
 // Maps
+var randomMap = new Map();
+randomMap.set('key1', 'Random String');
+randomMap.set('key2', 10);
+console.log(randomMap.get('key1'), randomMap.get('key2'));
+console.log(randomMap.size);
 
+randomMap.forEach(function(value, key){
+    console.log(key, value)
+})
