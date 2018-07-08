@@ -51,7 +51,7 @@ console.log(lname.endsWith('07'));
 console.log((fname + lname).includes('ki40'));
 
 let multiLineStr = `This is 
-a multiline 
+a multiline
 string`;
 
 console.log(multiLineStr);
