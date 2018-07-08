@@ -29,6 +29,7 @@ let num2 = 5;
 console.log(`10 * 5 = ${num1 * num2}`);
 
 function doMaths(strings, ...values) {
+    console.log(strings);
     if (strings[0] === 'add') {
         console.log(`${values[0]}+${values[1]} = ${values[0] + values[1]}`);
     } else if (strings[0] === 'sub') {
@@ -36,7 +37,21 @@ function doMaths(strings, ...values) {
     }
 }
 
-doMaths `add${10} ${20}`
-doMaths `add${10} ${30}`
-doMaths `sub${10} ${30}`
+doMaths`add${10} ${20}`;
+doMaths`add${10} ${30}`;
+doMaths`sub${10} ${30}`;
 
+for (let c of fname) {
+    console.log(c);
+}
+
+console.log('Rikki is the best \n '.repeat(3));
+console.log(fname.startsWith('Ri'));
+console.log(lname.endsWith('07'));
+console.log((fname + lname).includes('ki40'));
+
+let multiLineStr = `This is 
+a multiline 
+string`;
+
+console.log(multiLineStr);
