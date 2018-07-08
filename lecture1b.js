@@ -5,7 +5,7 @@ function getSum(num1 = 1, num2 = 1) {
     );
 }
 getSum(3);
-
+getSumMore(1, 2, 3, 4);
 function getSumMore(...vals) {
     console.log(...vals);
     let sum = 0;
@@ -14,7 +14,6 @@ function getSumMore(...vals) {
     }
     console.log(`The sum is ${sum}`);
 }
-getSumMore(1, 2, 3, 4);
 
 let vals = [1, 2, 3, 4, 5];
 getSumMore(...vals);

@@ -1,3 +1,4 @@
+//Object Literals
 function createAnimal(name, owner) {
     return {
         name,
