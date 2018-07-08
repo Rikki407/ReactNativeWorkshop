@@ -1,3 +1,5 @@
+//Symbol
+
 let mySymbol = Symbol('is moving');
 console.log(mySymbol);
 console.log(Symbol('foo') === mySymbol);

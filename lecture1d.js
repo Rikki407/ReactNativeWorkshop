@@ -1,3 +1,4 @@
+//Class
 class Pet {
     constructor(name) {
         this._name = name;
