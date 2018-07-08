@@ -30,7 +30,7 @@ console.log(multiply(3, 3));
 
 let valArr = [1, 2, 3, 4, 5];
 let sumVals = valArr.reduce((a, b) => {
-    console.log(a,b);
+    console.log(a, b);
     return a + b;
 });
 let evens = valArr.filter(v => v % 2 == 0);

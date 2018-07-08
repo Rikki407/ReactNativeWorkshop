@@ -29,6 +29,7 @@ let num2 = 5;
 console.log(`10 * 5 = ${num1 * num2}`);
 
 function doMaths(strings, ...values) {
+    var demo = "demo";
     console.log(strings);
     if (strings[0] === 'add') {
         console.log(`${values[0]}+${values[1]} = ${values[0] + values[1]}`);
