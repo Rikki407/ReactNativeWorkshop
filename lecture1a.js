@@ -48,6 +48,9 @@ doMaths`sub${10} ${30}`;
 for (let c of fname) {
     console.log(c);
 }
+for (let i in fname) {
+    console.log(i)
+}
 
 console.log('Rikki is the best \n '.repeat(3));
 console.log(fname.startsWith('Ri'));
