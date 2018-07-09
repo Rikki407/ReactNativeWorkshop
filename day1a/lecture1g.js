@@ -9,3 +9,4 @@ let promise = new Promise((resolve, reject) => {
 });
 
 promise.then(val => console.log(val)).catch(err => console.log(err.message));
+
